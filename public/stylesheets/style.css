@@ -68,6 +68,16 @@ p {
     overflow: hidden;
 }
 
+.square .icon-box, .square2 .icon-box{
+    width: 92px;
+    height: 92px;
+    top: 20px;
+}
+
+.square .text-box, .square2 .text-box{
+    font-size: 20px;
+    bottom: 0;
+}
 
 /*   .square:hover .card{
         z-index:0;
@@ -107,6 +117,7 @@ p {
     margin-top: 20px;
     background-color: white;
     border: 1px solid lightgray;
+    overflow: hidden;
 }
 
 .box-short-text {
