@@ -55,6 +55,8 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 0 !important;
 }
 
 .square {
@@ -127,9 +129,9 @@ p {
 }
 
 .brand-ml {
-    width: 190px;
+    width: 250px;
     height: 70px;
-    background-color: white;
+
 }
 
 
