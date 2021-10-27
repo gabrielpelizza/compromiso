@@ -81,6 +81,76 @@ p {
     bottom: 0;
 }
 
+/* .text-box{
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+.icon-box{
+    transition: ease-in;
+    transition-duration: 0.3s;
+} */
+
+/**** square1 ****/
+.square:hover .text-box{
+    visibility:hidden;
+    
+}
+
+.square:hover .icon-box{
+    visibility:hidden;
+    
+}
+
+.square:hover .hover-text{
+    transition: ease-in;
+    transition-duration: 0.5s;
+    visibility: visible;
+}
+
+.square:hover{
+    transition: ease-in;
+    transition-duration: 0.5s;
+    background-color: #D3D93C;
+}
+.square{
+    transition: ease-out;
+    transition-duration: 0.3s;
+}
+
+/**** square2 ****/
+.square2:hover .text-box{
+    visibility:hidden;
+}
+
+.square2:hover .icon-box{
+    visibility:hidden;
+}
+
+.square2:hover .hover-text{
+    transition: ease-in;
+    transition-duration: 0.5s;
+    visibility: visible;
+}
+
+.square2:hover{
+    transition: ease-in;
+    transition-duration: 0.5s;
+    background-color: #D3D93C;
+}
+.square2{
+    transition: ease-out;
+    transition-duration: 0.3s;
+}
+
+.hover-text {
+    visibility: hidden;
+    font-size: 15px;
+    margin: 15px;
+}
+
+
+
+
 /*   .square:hover .card{
         z-index:0;
         transition: ease-out;
