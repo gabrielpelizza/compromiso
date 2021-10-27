@@ -28,11 +28,47 @@ p {
     overflow: hidden;
 }
 
-.banner img{
+.banner .background-img{
     width: 100%;
     height: 150%;
 }
+.banner .animation{
 
+    width: 90%;
+    height: 90%;
+    right: -20px;
+    left: 50px;
+    top: 110px;
+    animation-name: animation;
+    animation-duration: 1.5s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation {
+    from {
+      top: 110px;
+    }
+    10%{
+        top:109px;
+    }
+    20%{
+        top:108px;
+    }
+    30%{
+        top:107px;
+    }
+    40%{
+        top:106px;
+    }
+    50%{
+        top:105px;
+    }
+    to {
+      top:110px;
+    }
+}
 .banner-wrapper {
     position: inherit;
     width: 100%;
