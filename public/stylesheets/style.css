@@ -114,7 +114,7 @@ p {
 }
 .square{
     transition: ease-out;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
 }
 
 /**** square2 ****/
