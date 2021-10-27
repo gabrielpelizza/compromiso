@@ -12,9 +12,10 @@ a {
 
 /* ---MAIN--- */
 
-main{
+main {
     padding: 0 !important;
 }
+
 
 /******************************/
 
@@ -29,12 +30,12 @@ p {
     overflow: hidden;
 }
 
-.banner .background-img{
+.banner .background-img {
     width: 100%;
     height: 150%;
 }
-.banner .animation{
 
+.banner .animation {
     width: 90%;
     height: 90%;
     right: -20px;
@@ -44,32 +45,32 @@ p {
     animation-duration: 1.5s;
     animation-delay: 0;
     animation-iteration-count: infinite;
-
 }
 
 @keyframes animation {
     from {
-      top: 110px;
+        top: 110px;
     }
-    10%{
-        top:109px;
+    10% {
+        top: 109px;
     }
-    20%{
-        top:108px;
+    20% {
+        top: 108px;
     }
-    30%{
-        top:107px;
+    30% {
+        top: 107px;
     }
-    40%{
-        top:106px;
+    40% {
+        top: 106px;
     }
-    50%{
-        top:105px;
+    50% {
+        top: 105px;
     }
     to {
-      top:110px;
+        top: 110px;
     }
 }
+
 .banner-wrapper {
     position: inherit;
     width: 100%;
@@ -107,16 +108,19 @@ p {
     overflow: hidden;
 }
 
-.square .icon-box, .square2 .icon-box{
+.square .icon-box,
+.square2 .icon-box {
     width: 92px;
     height: 92px;
     top: 20px;
 }
 
-.square .text-box, .square2 .text-box{
+.square .text-box,
+.square2 .text-box {
     font-size: 20px;
     bottom: 0;
 }
+
 
 /* .text-box{
     transition: ease-in;
@@ -127,54 +131,58 @@ p {
     transition-duration: 0.3s;
 } */
 
+
 /**** square1 ****/
-.square:hover .text-box{
-    visibility:hidden;
-    
+
+.square:hover .text-box {
+    visibility: hidden;
 }
 
-.square:hover .icon-box{
-    visibility:hidden;
-    
+.square:hover .icon-box {
+    visibility: hidden;
 }
 
-.square:hover .hover-text{
+.square:hover .hover-text {
     transition: ease-in;
     transition-duration: 0.5s;
     visibility: visible;
 }
 
-.square:hover{
+.square:hover {
     transition: ease-in;
     transition-duration: 0.5s;
     background-color: #D3D93C;
 }
-.square{
+
+.square {
     transition: ease-out;
     transition-duration: 0.5s;
 }
 
+
 /**** square2 ****/
-.square2:hover .text-box{
-    visibility:hidden;
+
+.square2:hover .text-box {
+    visibility: hidden;
 }
 
-.square2:hover .icon-box{
-    visibility:hidden;
+.square2:hover .icon-box {
+    visibility: hidden;
 }
 
-.square2:hover .hover-text{
+.square2:hover .hover-text {
     transition: ease-in;
     transition-duration: 0.5s;
     visibility: visible;
 }
 
-.square2:hover{
+.square2:hover {
     transition: ease-in;
     transition-duration: 0.5s;
     background-color: #D3D93C;
 }
-.square2{
+
+.square2 {
     transition: ease-out;
     transition-duration: 0.3s;
 }
@@ -184,8 +192,6 @@ p {
     font-size: 15px;
     margin: 15px;
 }
-
-
 
 
 /*   .square:hover .card{
@@ -238,7 +244,6 @@ p {
 .brand-ml {
     width: 250px;
     height: 70px;
-
 }
 
 
@@ -300,6 +305,10 @@ p {
     background-size: cover;
 }
 
+.row {
+    margin-right: 0 !important;
+}
+
 
 /* SECTOR NOSOTROS/NUESTRO EQUIPO */
 
@@ -337,7 +346,7 @@ p {
 }
 
 .aboutSec1-text p {
-    width: 27vw;
+    /*width: 27vw;*/
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 27.24px;
