@@ -4,8 +4,8 @@ header {
 
 .header {
     background-color: #333965;
-    height: 80px/*7em*/
-    ;
+    height: 80px;
+    /*7em*/
     position: fixed;
     width: 100%;
     top: 0;
@@ -32,19 +32,19 @@ header {
 }
 
 .logo img {
-    width: 50%;
+    width: 80%;
 }
 
 .nav-menu {
     display: flex;
-    /*margin-right: 40px;*/
+    margin-right: 40px;
     list-style: none;
 }
 
 .nav-menu-item {
     font-size: 18px;
     margin: 0 10px;
-    line-height: 80px;
+    line-height: 70px;
     text-transform: uppercase;
     width: max-content;
 }
@@ -71,7 +71,7 @@ header {
 
 /* MEDIA QUERYS */
 
-@media (max-width: 990px) {
+@media (max-width: 1020px) {
     body {
         padding-top: 70px;
     }
