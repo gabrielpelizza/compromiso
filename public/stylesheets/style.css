@@ -25,19 +25,25 @@ p {
 
 .banner {
     width: 100%;
-    top: 0%;
-    height: 450px;
-    overflow: hidden;
+    height: 460px;
+
+}
+
+.banner .title{
+    top: 50%;
+    bottom: 50%;
+    left: 20px;
+    color:red;
 }
 
 .banner .background-img {
     width: 100%;
-    height: 150%;
+    height: 116%;
 }
 
 .banner .animation {
     width: 90%;
-    height: 90%;
+    height: 100%;
     right: -20px;
     left: 50px;
     top: 110px;
@@ -49,25 +55,25 @@ p {
 
 @keyframes animation {
     from {
-        top: 110px;
+        top: 140px;
     }
     10% {
-        top: 109px;
+        top: 139px;
     }
     20% {
-        top: 108px;
+        top: 138px;
     }
     30% {
-        top: 107px;
+        top: 137px;
     }
     40% {
-        top: 106px;
+        top: 136px;
     }
     50% {
-        top: 105px;
+        top: 135px;
     }
     to {
-        top: 110px;
+        top: 140px;
     }
 }
 
@@ -85,12 +91,13 @@ p {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 25% 0%;
+    
     object-fit: contain;
 }
 
 .develop {
     background-image: url('../images/fondo\ desarrollo.png');
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 15px;
