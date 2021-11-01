@@ -1,11 +1,10 @@
 /*font*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
     margin: 0;
     padding: 0;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    max-width: 1440px;
 }
 
 a {
@@ -19,6 +18,11 @@ main {
     padding: 0 !important;
 }
 
+.contenedor {
+    max-width: 1440px;
+    margin: auto;
+}
+
 
 /******************************/
 
@@ -29,10 +33,9 @@ p {
 .banner {
     width: 100%;
     height: 530px;
-
 }
 
-.banner .title{
+.banner .title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     line-height: 55px;
@@ -40,7 +43,7 @@ p {
     top: 40%;
     bottom: 50%;
     left: 13%;
-    color:red;
+    color: red;
 }
 
 .banner .background-img {
@@ -98,7 +101,6 @@ p {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 25% 0%;
-    
     object-fit: contain;
 }
 
@@ -880,7 +882,9 @@ phone: 480
 
 @media (min-width: 1700px) {
     .sector {
-        margin-top: 16vw;
+        margin-top: 100px;
+        margin-bottom: 360px;
+        /*5vw*/
         /*29vh*/
     }
     .aboutSec1 {
@@ -893,8 +897,13 @@ phone: 480
     .aboutSec1-sector {
         margin-left: 4vw;
     }
+    .aboutSec2 {
+        margin-bottom: 100px;
+    }
     .dobleSector {
-        margin-top: 21vw;
+        margin: 76px;
+        margin-top: 160px;
+        /*10vw*/
         /*45vh*/
     }
     .aboutSec2-sector {
@@ -916,16 +925,18 @@ phone: 480
         left: 88vh
     }
     .dobleSector-text1 {
-        margin-left: 3.5vw;
+        margin-left: 61px;
+        /*3.5vw*/
         /*7vh*/
     }
     .dobleSector-text1 p {
         font-size: 22px;
     }
     .dobleSector-text2 {
-        margin-left: 3.5vw;
+        margin-left: 61px;
         /*7vh*/
-        margin-top: 3vw;
+        margin-top: 55px;
+        /*3vw*/
         /*5vh*/
         width: 80%;
     }
@@ -933,35 +944,37 @@ phone: 480
         font-size: 22px;
     }
     .blueBox {
-        margin-bottom: 20vw;
+        margin-bottom: 85px;
+        /* 20vw*/
         /*20vh*/
     }
     .blueBox-article_title {
-        margin-left: 4.5vw;
+        margin-left: 77px;
+        /*4.5vw*/
         /*10vh*/
     }
     .blueBox-article_text {
-        margin-left: 4.5vw;
+        margin-left: 77px;
         /*10vh*/
         width: 39%;
     }
     .blueBox-article_text p {
         font-size: 22px;
     }
-    .impactSector p {
-        font-size: 22px;
-        width: 89vh;
-    }
     .greenBox {
-        margin-top: 5vw;
+        margin-top: 2vw;
         /*9vh*/
     }
     .greenBox-text {
-        margin-left: 7vw;
+        margin-left: 80px;
+        /*5vw*/
         /*13.3vh*/
     }
     .impactSector {
-        margin-top: 12vw;
+        margin: 70px;
+        /*4.5vw*/
+        margin-top: 130px;
+        /*7wv*/
         /*23vh*/
     }
     .greenBox-text p {
@@ -969,11 +982,16 @@ phone: 480
     }
     .impactSector p {
         font-size: 22px;
-        width: 48vw;
+        max-width: 800px;
+        padding-left: 100px;
+        /*48wv*/
         /*89vh*/
     }
+    .impactSector h2 {
+        padding-left: 100px;
+    }
     .greenBox-boxes {
-        padding-left: 9vw;
+        padding-left: 4vw;
         /*19vh*/
     }
     .greenBox-boxes_box {
