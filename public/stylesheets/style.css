@@ -240,6 +240,11 @@ p {
     left: 10px;
 }
 
+.question-icon{
+    right: 0;
+    bottom: 0;
+    z-index:1;
+}
 
 /*   .square:hover .card{
         z-index:0;
