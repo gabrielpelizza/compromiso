@@ -38,7 +38,7 @@ addEventListener("DOMContentLoaded", () => {
         threshold: 0.70 //0 hasta 1
     })
 
-    const elementosHTML = document.querySelectorAll('.greenBox-boxes_box')
+    const elementosHTML = document.querySelectorAll('.show-boxes')
     elementosHTML.forEach(elemento => {
         observer.observe(elemento)
     })
