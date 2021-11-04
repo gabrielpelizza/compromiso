@@ -24,6 +24,45 @@ main {
 }
 
 
+/* Boton Flotante */
+
+.menu-content {
+    width: 200px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+    right: 10px;
+    transition: transform 300ms;
+}
+
+#menu {
+    z-index: 10;
+}
+
+#select {
+    margin-right: 20px;
+}
+
+.menu-active .menu-item:nth-child(2) {
+    transform: translateY(-120px);
+}
+
+.menu-active .menu-item:nth-child(3) {
+    transform: translateY(-200px);
+}
+
+
 /******************************/
 
 p {
@@ -1126,6 +1165,12 @@ phone: 480
     .dobleSector {
         margin-top: 8vw;
     }
+    .impactSector h2 {
+        padding-left: 6vw;
+    }
+    .impactSector p {
+        padding-left: 6vw;
+    }
 }
 
 
@@ -1252,32 +1297,12 @@ phone: 480
     }
 }
 
-
-/*1111px*/
-
-
-/* 1093px pasar a tablet??*/
-
-
-/*
-@media (max-width: 1455.56px) {
-
-.impactSector {
-    margin-bottom: 8vh;
-}
-
-.greenBox {
-    margin: 2.2vh;
-}
-
-}*/
-
 @media (max-width: 1180px) {
     .blueBox-article_text {
         width: 50%;
     }
     .dobleSector-text2 {
-        width: 550px;
+        width: 540px;
     }
 }
 
@@ -1295,6 +1320,3 @@ phone: 480
         /*15vh*/
     }
 }
-
-
-/* 1033 */
