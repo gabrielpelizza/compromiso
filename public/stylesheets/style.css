@@ -69,6 +69,26 @@ p {
     font-size: 18px;
 }
 
+.fondo-circulo {
+    background-image: none;
+}
+
+.iconos-image {
+    display: none;
+}
+
+.mobiles {
+    display: none;
+}
+
+.mobile-image {
+    display: none;
+}
+
+.fish {
+    display: none;
+}
+
 .banner {
     width: 100%;
     height: 530px;
@@ -161,6 +181,7 @@ p {
     background-color: white;
     border: 1px solid lightgray;
     overflow: hidden;
+    box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.3);
 }
 
 .square .icon-box,
@@ -173,6 +194,12 @@ p {
 .square .text-box,
 .square2 .text-box {
     font-size: 20px;
+    bottom: 0;
+}
+
+.square .text-box-2,
+.square2 .text-box-2 {
+    font-size: 18px;
     bottom: 0;
 }
 
@@ -198,6 +225,12 @@ p {
 }
 
 .square:hover .hover-text {
+    transition: ease-in;
+    transition-duration: 0.5s;
+    visibility: visible;
+}
+
+.square:hover .hover-text-2 {
     transition: ease-in;
     transition-duration: 0.5s;
     visibility: visible;
@@ -231,6 +264,12 @@ p {
     visibility: visible;
 }
 
+.square2:hover .hover-text-2 {
+    transition: ease-in;
+    transition-duration: 0.5s;
+    visibility: visible;
+}
+
 .square2:hover {
     transition: ease-in;
     transition-duration: 0.5s;
@@ -240,12 +279,31 @@ p {
 .square2 {
     transition: ease-out;
     transition-duration: 0.3s;
+    box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.3);
 }
 
 .hover-text {
     visibility: hidden;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.hover-text-2 {
+    visibility: hidden;
     font-size: 15px;
-    margin: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    left: 10px;
+}
+
+.question-icon {
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 
@@ -1302,7 +1360,7 @@ phone: 480
         width: 50%;
     }
     .dobleSector-text2 {
-        width: 540px;
+        width: 90%;
     }
 }
 
@@ -1316,7 +1374,176 @@ phone: 480
         margin-top: 40px;
     }
     .dobleSector {
-        margin-top: 15vh;
+        margin-top: 8vw;
         /*15vh*/
+    }
+    .dobleSector-text2 {
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .iconos-image {
+        display: block;
+    }
+    .mobiles {
+        display: block;
+    }
+    .mobile-image {
+        display: block;
+    }
+    .fish {
+        display: block;
+    }
+    .greenBox-boxes {
+        display: none;
+    }
+    .seperateBox {
+        display: none;
+    }
+    /* Busqueda y preseleccion */
+    .fondo {
+        background-image: url(../images/briefcaseMovile.png);
+        background-size: cover;
+    }
+    .sector {
+        margin: 10vw;
+        margin-top: 37vw;
+    }
+    .sector p {
+        width: auto;
+    }
+    .iconos-image {
+        width: 100%;
+    }
+    /* Nosotros */
+    .aboutSec1-sector {
+        margin-bottom: 30%;
+    }
+    .aboutSec1-title {
+        text-align: center;
+        margin-left: auto;
+    }
+    .fondoPuño {
+        background-image: none;
+    }
+    .newFondo {
+        background-color: rgba(232, 231, 231, 0.7);
+    }
+    .aboutSec2 {
+        margin: 0;
+        margin-left: 0;
+        background-color: none;
+    }
+    .aboutSec2-box {
+        display: none;
+    }
+    .fish {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+    }
+    .fish img {
+        width: 300px;
+        margin-top: -146px;
+    }
+    .aboutSec1-text p {
+        font-size: 2rem;
+        line-height: 30px;
+    }
+    .aboutSec2-text p {
+        font-size: 2.25rem;
+        line-height: 40px;
+    }
+    /* Nuestro impacto */
+    .fondo-impact {
+        background-image: none;
+    }
+    .impactSector {
+        margin: 50px;
+        /*10%*/
+    }
+    .greenBox {
+        margin: 50px;
+        margin-top: 130px;
+        margin-bottom: 100px;
+    }
+    .greenBox-text {
+        margin: 0;
+    }
+    .mobile-image {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: -27vw;
+    }
+    .image2 {
+        margin-top: 0;
+        margin-bottom: -40vw;
+    }
+    .cajitas {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -21vw;
+    }
+    .fondo-circulo {
+        box-sizing: border-box;
+        background-image: url(../images/fondoBlue3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .cajas {
+        width: 50vw;
+        height: 238px;
+        background: #ffffff;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+        margin-bottom: 15px;
+    }
+    .dobleSector-text1 {
+        width: auto;
+    }
+    .dobleSector-text2 {
+        margin-top: 150px;
+        width: auto;
+    }
+    .blueBox {
+        margin-left: 0;
+    }
+    .blueBox-article {
+        margin-left: 6vw;
+    }
+    .blueBox-article_text {
+        width: auto;
+    }
+    section div.clientes {
+        margin-top: 60vw;
+    }
+    .mobile-image img {
+        width: 100%;
+    }
+    .impactSector h2 {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .impactSector p {
+        font-size: 2rem;
+    }
+    .greenBox-text p {
+        padding: 0;
+        font-size: 2rem;
+    }
+    .dobleSector-text1 p {
+        font-size: 2rem;
+        line-height: 32px;
+    }
+    .dobleSector-text2 p {
+        font-size: 2rem;
+        line-height: 32px;
+    }
+    .blueBox-article_text p {
+        font-size: 2rem;
+        line-height: 32px;
     }
 }
