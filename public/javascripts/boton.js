@@ -17,7 +17,7 @@ addEventListener("DOMContentLoaded", () => {
         console.log(entry)
 
         entry.forEach(element => {
-            console.log(element)
+
             if (element.isIntersecting) {
                 menuContent.classList.add('menu-static')
             } else {
