@@ -1549,9 +1549,7 @@ phone: 480
     }
 }
 
-@media(min-width:425px){
-
-
+@media(min-width:425px) and (max-width: 576px){
     .square2{
         margin-left: 0;
         margin-right: 0;
@@ -1560,7 +1558,7 @@ phone: 480
         margin-left: 0;
         margin-right: 0;
     }
-    .square:first-child{
+    .square2{
         margin-bottom:20px;
     }
 
