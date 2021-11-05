@@ -1548,3 +1548,23 @@ phone: 480
         line-height: 32px;
     }
 }
+
+@media(min-width:425px){
+
+
+    .square2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .square{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .square:first-child{
+        margin-bottom:20px;
+    }
+
+    h3{
+        font-size:50px;
+    }
+}
