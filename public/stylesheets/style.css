@@ -1388,7 +1388,7 @@ phone: 480
     }
 }
 
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 375px) and (max-width: 992px) {
     .iconos-image {
         display: block;
     }
