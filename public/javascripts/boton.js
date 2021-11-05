@@ -11,17 +11,29 @@ console.log(position)
 
 addEventListener("DOMContentLoaded", () => {
 
-    const footer = document.querySelector('.footer')
+    const footer = document.querySelector('.footer');
 
-    let botonStatic = () => {
-        menuContent.classList.toggle('menu-static')
+    let botonStatic = (entry) => {
+        console.log(entry)
+
+        entry.forEach(element => {
+            console.log(element)
+            if (element.isIntersecting) {
+                menuContent.classList.add('menu-static')
+            } else {
+                menuContent.classList.remove('menu-static')
+            }
+
+        });
+
     }
 
     const observer = new IntersectionObserver(botonStatic, {
-        threshold: 0.25
-    })
 
-    observer.observe(footer)
+        threshold: 0.25
+    });
+
+    observer.observe(footer);
 
 })
 
