@@ -152,10 +152,11 @@ p {
     }
 }
 
-.banner-desk{
+.banner-desk {
     visibility: visible;
 }
-.banner-mobile{
+
+.banner-mobile {
     display: none;
 }
 
@@ -1446,7 +1447,7 @@ phone: 480
     .aboutSec2 {
         margin: 0;
         margin-left: 0;
-        background-color: none;
+        margin-top: 3rem;
     }
     .aboutSec2-box {
         display: none;
@@ -1461,11 +1462,11 @@ phone: 480
         margin-top: -146px;
     }
     .aboutSec1-text p {
-        font-size: 2rem;
+        font-size: 20px;
         line-height: 30px;
     }
     .aboutSec2-text p {
-        font-size: 2.25rem;
+        font-size: 20px;
         line-height: 40px;
     }
     /* Nuestro impacto */
@@ -1474,11 +1475,12 @@ phone: 480
     }
     .impactSector {
         margin: 50px;
+        margin-bottom: 10rem;
         /*10%*/
     }
     .greenBox {
         margin: 50px;
-        margin-top: 130px;
+        margin-top: 1vw;
         margin-bottom: 100px;
     }
     .greenBox-text {
@@ -1535,83 +1537,77 @@ phone: 480
     .mobile-image img {
         width: 100%;
     }
+    .blueBox-article_title h2 {
+        font-size: 30px;
+    }
     .impactSector h2 {
-        font-size: 3rem;
+        font-size: 2.3rem;
         font-weight: bold;
         text-align: center;
     }
     .impactSector p {
-        font-size: 2rem;
+        font-size: 20px;
     }
     .greenBox-text p {
         padding: 0;
-        font-size: 2rem;
+        font-size: 20px;
     }
     .dobleSector-text1 p {
-        font-size: 2rem;
+        font-size: 20px;
         line-height: 32px;
     }
     .dobleSector-text2 p {
-        font-size: 2rem;
+        font-size: 20px;
         line-height: 32px;
     }
     .blueBox-article_text p {
-        font-size: 2rem;
+        font-size: 20px;
         line-height: 32px;
     }
 }
 
 @media(min-width:300px) and (max-width: 576px) {
-    body{
+    body {
         padding-top: 0 !important;
     }
-
-    .banner-desk{
-        visibility:hidden;
+    .banner-desk {
+        visibility: hidden;
     }
-
-    .services.container-fluid{
+    .services.container-fluid {
         padding-right: 0;
     }
-
     .services {
-        
         background-image: none;
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: 25% 0%;
         object-fit: contain;
     }
-    .service-container{
+    .service-container {
         padding: 0;
     }
-
-    .ecommerce-bg{
+    .ecommerce-bg {
         z-index: 1;
         width: 100%;
         background-image: url('../images/fondoBlue3.png');
         background-size: 110%;
     }
-
     .banner {
         height: 490px;
     }
-
-    .m-r-l{
-        margin-left:10px;
+    .m-r-l {
+        margin-left: 10px;
     }
-
     .banner .animation {
         width: 100%;
         height: 50%;
         left: 0px;
-        top:250px;
+        top: 250px;
         animation-name: animation;
         animation-duration: 1.5s;
         animation-delay: 0;
         animation-iteration-count: infinite;
     }
-    
     @keyframes animation {
         from {
             top: 250px;
@@ -1635,41 +1631,60 @@ phone: 480
             top: 250px;
         }
     }
-    
-    .banner-mobile{
+    .banner-mobile {
         visibility: visible;
         width: 100%;
         height: 100%;
-        z-index:0;
+        z-index: 0;
     }
-
-    .banner .title{
+    .banner .title {
         left: 0%;
-        top:32%;
+        top: 32%;
         font-size: 34px;
     }
-
-   /*  .banner .background-img {
+    /*  .banner .background-img {
         width: 120%;
         height: 106%;
     } */
-
-    .square2{
+    .square2 {
         margin-left: 0;
         margin-right: 0;
         margin-top: 0;
-        margin-bottom:20px;
+        margin-bottom: 20px;
         width: 100%;
     }
-    .square{
+    .square {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
         margin-top: 0 !important;
         margin-bottom: 20px;
     }
+    h3 {
+        font-size: 50px;
+    }
+}
 
-    h3{
-        font-size:50px;
+@media (min-width: 768px) and (max-width: 992px) {
+    .aboutSec1-text p {
+        font-size: 24px;
+    }
+    .aboutSec2-text p {
+        font-size: 24px;
+    }
+    .impactSector p {
+        font-size: 24px;
+    }
+    .greenBox-text p {
+        font-size: 24px;
+    }
+    .dobleSector-text1 p {
+        font-size: 24px;
+    }
+    .dobleSector-text2 p {
+        font-size: 24px;
+    }
+    .blueBox-article_text p {
+        font-size: 24px;
     }
 }
