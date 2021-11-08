@@ -1554,19 +1554,114 @@ phone: 480
     }
 }
 
-@media(min-width:425px) and (max-width: 576px) {
-    .square2 {
+@media(min-width:300px) and (max-width: 576px) {
+    body{
+        padding-top: 0 !important;
+    }
+
+    .banner-desk{
+        display:none;
+    }
+
+    .services.container-fluid{
+        padding-right: 0;
+    }
+
+    .services {
+        
+        background-image: none;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 25% 0%;
+        object-fit: contain;
+    }
+    .service-container{
+        padding: 0;
+    }
+
+    .ecommerce-bg{
+        z-index: 1;
+        width: 100%;
+        background-image: url('../images/fondoBlue3.png');
+        background-size: 110%;
+    }
+
+    .banner {
+        height: 490px;
+    }
+
+    .m-r-l{
+        margin-left:10px;
+    }
+
+    .banner .animation {
+        width: 100%;
+        height: 50%;
+        left: 0px;
+        top:250px;
+        animation-name: animation;
+        animation-duration: 1.5s;
+        animation-delay: 0;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes animation {
+        from {
+            top: 250px;
+        }
+        10% {
+            top: 251px;
+        }
+        20% {
+            top: 252px;
+        }
+        30% {
+            top: 253px;
+        }
+        40% {
+            top: 254px;
+        }
+        50% {
+            top: 255px;
+        }
+        to {
+            top: 250px;
+        }
+    }
+    
+    .banner-mobile{
+        width: 100%;
+        height: 100%;
+        z-index:0;
+    }
+
+    .banner .title{
+        left: 0%;
+        top:32%;
+        font-size: 34px;
+    }
+
+   /*  .banner .background-img {
+        width: 120%;
+        height: 106%;
+    } */
+
+    .square2{
         margin-left: 0;
         margin-right: 0;
+        margin-top: 0;
+        margin-bottom:20px;
+        width: 100%;
     }
-    .square {
+    .square{
+        width: 100%;
         margin-left: 0;
         margin-right: 0;
-    }
-    .square2 {
+        margin-top: 0 !important;
         margin-bottom: 20px;
     }
-    h3 {
-        font-size: 50px;
+
+    h3{
+        font-size:50px;
     }
 }
