@@ -156,7 +156,7 @@ p {
     visibility: visible;
 }
 .banner-mobile{
-    visibility: hidden;
+    display: none;
 }
 
 .banner-wrapper {
