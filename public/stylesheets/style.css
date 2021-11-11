@@ -60,6 +60,11 @@ main {
     height: 33px;
 }
 
+.inputs select {
+    margin-bottom: 15px;
+    height: 33px;
+}
+
 .text-area textarea{
     resize: none;
     width: 458px;
@@ -82,6 +87,12 @@ main {
 }
 
 .inputs input::placeholder {
+    font-size: 12px;
+    color: #A9AAAA;
+    padding: 10px;
+}
+
+.inputs select::placeholder {
     font-size: 12px;
     color: #A9AAAA;
     padding: 10px;

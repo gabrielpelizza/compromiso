@@ -528,14 +528,19 @@
                 </article>
                 <form action="" class="formulario">
                     <section class="inputs">
-                        <input type="text" placeholder="Escribe tu nombre">
-                        <input type="text" placeholder="Escribe tu mail">
-                        <input type="text" placeholder="Escribe tu teléfono">
-                        <input type="text" placeholder="Escribe el nombre de tu empresa">
-                        <input type="text" placeholder="Busca el Rubro a contratar">
+                        <input type="text" placeholder="Escribe tu nombre" name="nombre">
+                        <input type="email" placeholder="Escribe tu mail" name="email">
+                        <input type="tel" placeholder="Escribe tu teléfono" name="cel">
+                        <input type="text" placeholder="Escribe el nombre de tu empresa" name="empresa">
+                        <select name="rubro" placeholder="Busca el Rubro a contratar">
+                            <option disabled selected>Selecciona un rubro</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
                     </section>
                     <section class="text-area">
-                        <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
+                        <textarea name="texto" id="" placeholder="Escribe tu mensaje"></textarea>
                         <input type="submit" value="Enviar Mensaje">
                     </section>
                     
