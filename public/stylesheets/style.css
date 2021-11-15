@@ -64,11 +64,11 @@ main {
 }
 
 .menu-active .menu-item:nth-child(2) {
-    transform: translateY(-120px);
+    transform: translateX(-120px);
 }
 
 .menu-active .menu-item:nth-child(3) {
-    transform: translateY(-200px);
+    transform: translateX(-200px);
 }
 
 
@@ -1737,6 +1737,10 @@ phone: 480
 
     .text-area textarea {
         width: auto;
+    }
+
+    .contact-text p{
+        font-size: 17px;
     }
 
 
