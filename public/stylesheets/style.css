@@ -1995,7 +1995,13 @@ phone: 480
         font-family:'Open Sans', sans-serif;
     }
     
+    /*************************/
+    /* margen 30px laterales */
+    /*************************/
 
+    .m-lr{
+        margin:0 30px 0 30px ;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
