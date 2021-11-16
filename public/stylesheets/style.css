@@ -851,6 +851,11 @@ footer {
     align-items: center;
 }
 
+.botones-footer-mobile {
+    display: none;
+     
+}
+
 /* Formulario */
 
 /*
@@ -1754,6 +1759,32 @@ phone: 480
         width: auto;
         margin-right: 0;
     }
+
+    /* BOTONES FOOTER*/
+
+    .botones-footer {
+        display: none;
+    }
+
+    .botones-footer-mobile {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        align-items: center;
+        
+    }
+
+    footer div.logo img {
+        margin-bottom: 3vh;
+        margin-top: 0;
+    }
+
+    footer div.menu-wrapper nav.menu:last-child {
+        text-align: end;
+    }
+
+    /* ---- */
+    
     
     .contact {
         margin: 20px;
@@ -2029,6 +2060,18 @@ phone: 480
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+
+    footer div.menu-wrapper nav.menu:last-child {
+        margin-bottom: 0;
+        flex-direction: row;
+    }
+
+    footer div.menu-wrapper {
+        width: 70%;
+    }
+    
+
+
     .aboutSec1-text p {
         font-size: 24px;
     }
