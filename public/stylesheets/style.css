@@ -147,6 +147,7 @@ p {
 }
 
 .banner .animation {
+    display: none;
     width: 90%;
     height: 100%;
     right: -20px;
