@@ -1,5 +1,21 @@
 /*font*/
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+@font-face {
+    font-family: "Open sans";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+
+@font-face {
+    font-family: "Open sans 800";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+}
+
+
+
 /******************************/
 /*          general           */
 /******************************/
@@ -11,7 +27,7 @@
 /******************************/
 
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -2001,6 +2017,13 @@ phone: 480
 
     .m-lr{
         margin:0 30px 0 30px ;
+    }
+
+    .mt-sm-0{
+        margin-top: 0 !important;
+    }
+    .mb-sm-0{
+        margin-bottom: 0 !important;
     }
 }
 
