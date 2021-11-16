@@ -1,5 +1,16 @@
 /*font*/
 
+/******************************/
+/*          general           */
+/******************************/
+
+.d-lg-none{
+    visibility:hidden;
+}
+
+/******************************/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
     margin: 0;
@@ -300,6 +311,7 @@ p {
 }
 
 .hover-text {
+    font-family: "Open Sans";
     visibility: hidden;
     font-size: 14px;
     margin-left: 5px;
@@ -1777,6 +1789,7 @@ phone: 480
         width: 100%;
         background-image: url('../images/fondoBlue3.png');
         background-size: 110%;
+        background-repeat: no-repeat;
     }
     .banner {
         height: 490px;
@@ -1833,14 +1846,20 @@ phone: 480
         height: 106%;
     } */
     .square2 {
+        flex-direction: column;
         margin-left: 0;
         margin-right: 0;
         margin-top: 0;
         margin-bottom: 20px;
+        width: 335px;
+        height: 410px;
         /* width: 100%; */
     }
     .square {
+        flex-direction: column;
         /* width: 100%; */
+        width: 335px;
+        height: 415px;
         margin-left: 0;
         margin-right: 0;
         margin-top: 0 !important;
@@ -1852,6 +1871,131 @@ phone: 480
     .column-cards{
         justify-content: center !important;
     }
+
+    .d-lg-none{
+        visibility:visible;
+    }
+
+
+    .square .icon-box,
+    .square2 .icon-box {
+        width: 62px;
+        height: 62px;
+        top: 20px;
+    }
+
+    .square .text-box{
+        display:none;
+    }
+
+    .square .text-box,
+    .square2 .text-box {
+        font-size: 20px;
+        bottom: 0;
+        display:none;
+    }
+
+    .square .text-box-2,
+    .square2 .text-box-2 {
+        font-size: 18px;
+/*         bottom: 0; */
+        top:90px;
+        font-weight: bold;
+    }
+
+    /****************************/
+    .square:hover .text-box {
+        visibility: visible;
+    }
+    
+    .square:hover .icon-box {
+        visibility: visible;
+    }
+    
+    .square:hover .hover-text {
+        transition: ease-in;
+        transition-duration: 0.5s;
+        visibility: visible;
+    }
+    
+    .square:hover .hover-text-2 {
+        transition: ease-in;
+        transition-duration: 0.5s;
+        visibility: visible;
+    }
+    
+    .square:hover {
+        transition: ease-in;
+        transition-duration: 0.5s;
+        background-color: white;
+    }
+    
+    .square {
+        transition: ease-out;
+        transition-duration: 0.5s;
+    }
+
+    /******************************/
+    .square2:hover .text-box {
+        visibility: visible;
+    }
+    
+    .square2:hover .icon-box {
+        visibility: visible;
+    }
+    
+    .square2:hover .hover-text {
+        transition: ease-in;
+        transition-duration: 0.5s;
+        visibility: visible;
+    }
+    
+    .square2:hover .hover-text-2 {
+        transition: ease-in;
+        transition-duration: 0.5s;
+        visibility: visible;
+    }
+    
+    .square2:hover {
+        transition: ease-in;
+        transition-duration: 0.5s;
+        background-color: white;
+    }
+    
+    .square2 {
+        transition: ease-out;
+        transition-duration: 0.3s;
+        box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.3);
+    }
+    /******************************/
+    
+    .hover-text {
+        visibility: visible;
+        font-size: 22px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .hover-text-2 {
+        visibility: visible;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        left: 10px;
+        display: none;
+    }
+
+    .mobile-text{
+        margin-top: 90px;
+        font-weight: 700;
+        font-size: 24px;
+        font-family:'Open Sans', sans-serif;
+    }
+    
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
