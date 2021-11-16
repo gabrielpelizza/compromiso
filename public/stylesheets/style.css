@@ -160,7 +160,7 @@ p {
 }
 
 .banner-mobile {
-    display: none;
+    visibility: hidden;
 }
 
 .banner-wrapper {
@@ -1751,7 +1751,7 @@ phone: 480
         padding-top: 0 !important;
     }
     .banner-desk {
-        visibility: hidden;
+        display: none;
     }
     .services.container-fluid {
         padding-right: 0;
@@ -1766,6 +1766,12 @@ phone: 480
     .service-container {
         padding: 0;
     }
+
+    .brand-ml{
+        display: flex;
+        margin:auto;
+    }
+
     .ecommerce-bg {
         z-index: 1;
         width: 100%;
@@ -1818,7 +1824,7 @@ phone: 480
         z-index: 0;
     }
     .banner .title {
-        left: 0%;
+        left: 4%;
         top: 32%;
         font-size: 34px;
     }
@@ -1831,10 +1837,10 @@ phone: 480
         margin-right: 0;
         margin-top: 0;
         margin-bottom: 20px;
-        width: 100%;
+        /* width: 100%; */
     }
     .square {
-        width: 100%;
+        /* width: 100%; */
         margin-left: 0;
         margin-right: 0;
         margin-top: 0 !important;
@@ -1842,6 +1848,9 @@ phone: 480
     }
     h3 {
         font-size: 50px;
+    }
+    .column-cards{
+        justify-content: center !important;
     }
 }
 
